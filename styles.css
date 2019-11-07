@@ -3,6 +3,7 @@ body {
     max-height: 1123px;
     margin: auto;
     width: 100%;
+    background-color: #ede3e1;
 }
 
 li {
@@ -69,6 +70,7 @@ li {
 
 .content {
     padding: 2rem;
+    background-color: white;
 }
 
 .job-summary {
