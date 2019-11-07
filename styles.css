@@ -2,6 +2,8 @@ body {
     max-width: 794px;
     max-height: 1123px;
     margin: auto;
+    position: absolute;
+    width: 100%;
 }
 
 li {
@@ -11,6 +13,7 @@ li {
 .header {
     height: 20vh;
     display: flex;
+    width: 100%;
     -webkit-print-color-adjust: exact;
     justify-content: center;
     flex-direction: row;
@@ -76,6 +79,7 @@ li {
 .skills {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .languages {
@@ -91,4 +95,23 @@ li {
 
 .infoTitle {
     font-weight: bold;
+}
+
+@media screen and (max-width: 538px) {
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .headerRight {
+        font-size: 1rem;
+    }
+
+    .languages {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .languages > li {
+        margin-top: 0.5rem;
+    }
 }
