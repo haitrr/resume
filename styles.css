@@ -1,0 +1,94 @@
+body {
+    max-width: 794px;
+    max-height: 1123px;
+    margin: auto;
+}
+
+li {
+    margin-top: 0.1rem;
+}
+
+.header {
+    height: 20vh;
+    display: flex;
+    -webkit-print-color-adjust: exact;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F1F1F0;
+}
+
+.headerLeft, .headerRight {
+    flex: 1;
+}
+
+.headerLeft {
+    padding-left: 3rem;
+}
+
+.headerRight {
+    font-size: 1.1rem;
+    padding-right: 1.25rem;
+    justify-content: flex-end;
+    display: flex;
+}
+
+
+@media print {
+    .headerRight a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .headerRight a:visited {
+        color: black;
+    }
+}
+
+.name {
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.section {
+    margin-bottom: 1rem;
+}
+
+.job {
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom: solid whitesmoke 1px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.job-summary {
+    font-style: italic;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.languages li {
+    flex: 1;
+    align-items: center;
+}
+
+.infoTitle {
+    font-weight: bold;
+}
