@@ -58,10 +58,11 @@ li {
 }
 
 .job {
+    font-size: 1rem;
 }
 
 .title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     border-bottom: solid whitesmoke 1px;
     width: 100%;
@@ -96,6 +97,15 @@ li {
 
 .infoTitle {
     font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.infoValue {
+    font-size: 0.85rem;
+}
+
+li {
+    font-size: 0.9rem;
 }
 
 @media screen and (max-width: 538px) {
